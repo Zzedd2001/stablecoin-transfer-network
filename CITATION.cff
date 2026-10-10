@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the Zenodo record (and the article once published)."
+title: "Code, label table and indicator tables for: Mapping the stablecoin transfer network on Ethereum after netting out flash loans, 2020–2026"
+authors:
+  - family-names: Zhu
+    given-names: Zhengdong
+    orcid: "https://orcid.org/0009-0001-8953-0061"
+    affiliation: "School of Business, Macau University of Science and Technology, Macau, China"
+version: 1.0.0
+date-released: 2026-10-10
+doi: 10.5281/zenodo.23282476
+license: MIT
+repository-code: "https://github.com/[your-github-username]/stablecoin-transfer-network"
+keywords:
+  - stablecoin
+  - Ethereum
+  - transaction network
+  - flash loan
+  - network concentration
+  - preferential attachment

@@ -1,0 +1,8 @@
+# Python 3.12 packages used for the analysis (versions from the authors' environment, 2026-10-08)
+pandas==3.0.6
+numpy==2.5.3
+scipy==1.18.1
+python-igraph==1.0.0
+powerlaw==2.0.0
+matplotlib==3.11.2
+google-cloud-bigquery==3.46.1

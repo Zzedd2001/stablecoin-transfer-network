@@ -1,0 +1,97 @@
+address,entity,entity_group,category,confidence,note
+0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb,Morpho Blue,Morpho,DeFi-lending,high,Singleton contract; source of fee-free flash loans
+0x23878914efe38d27c4d67ab83ed1b93a74d4086a,Aave V3 aEthUSDT,Aave,DeFi-lending,high,USDT reserve
+0x98c23e9d8f34fefb1b7bd6a91b7ff122f4e16f5c,Aave V3 aEthUSDC,Aave,DeFi-lending,high,USDC reserve
+0x018008bfb33d285247a21d44e50697654f754e63,Aave V3 aEthDAI,Aave,DeFi-lending,high,DAI reserve
+0x3ed3b47dd13ec9a98b44e6204a523e766b225811,Aave V2 aUSDT,Aave,DeFi-lending,high,
+0xbcca60bb61934080951369a648fb03df4f96263c,Aave V2 aUSDC,Aave,DeFi-lending,high,
+0x028171bca77440897b824ca71d1c56cac55b68a3,Aave V2 aDAI,Aave,DeFi-lending,high,
+0x39aa39c021dfbae8fac545936693ac917d5e7563,Compound cUSDC,Compound,DeFi-lending,high,
+0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9,Compound cUSDT,Compound,DeFi-lending,high,
+0x5d3a536e4d6dbd6114cc1ead35777bab948e3643,Compound cDAI,Compound,DeFi-lending,high,
+0x4dedf26112b3ec8ec46e7e31ea5e123490b05b8b,Spark spDAI,Sky,DeFi-lending,medium,
+0xf6e72db5454dd049d0788e411b06cfaf16853042,Sky LitePSM-USDC,Sky,DeFi-PSM,high,
+0x0a59649758aa4d66e25f08dd01271e891fe52199,Maker PSM-USDC-A GemJoin,Sky,DeFi-PSM,high,
+0x89b78cfa322f6c5de0abceecab66aee45393cc5a,Maker PSM-USDC-A (DssPsm),Sky,DeFi-PSM,high,
+0x3225737a9bbb6473cb4a45b7244aca2befdb276a,Sky DaiUsds converter,Sky,DeFi-PSM,high,
+0x37305b1cd40574e4c5ce33f8e8306be057fd7341,Sky LitePSM pocket,Sky,DeFi-PSM,medium,USDC custody address (LitePSM pocket)
+0x83f20f44975d03b1b09e64809b757c47f942beea,sDAI (Savings DAI),Sky,DeFi-PSM,high,
+0x60744434d6339a6b27d73d9eda62b6f66a0a04fa,"Sky: MCD Flash (DssFlash, DAI flash-mint module)",Sky,flash-mint,high,"Etherscan tag 'Sky: MCD Flash'; the repayment leg flows into this contract while the lending leg is a mint, so it is removed as a flash-loan leg (G_net_xf)"
+0xa188eec8f81263234da3622a406892f3d630f98c,Spark: USDS PSM Wrapper (UsdsPsmWrapper),Sky,DeFi-PSM,high,Protocol-internal hop LitePSM -> Wrapper -> DaiUsds converter; consolidated into the Sky entity
+0xbebc44782c7db0a1a60cb6fe97d0b483032ff1c7,Curve 3pool,Curve,DeFi-DEX,high,
+0x45f783cce6b7ff23b2ab2d70e416cdb7d6055f51,Curve Y pool,Curve,DeFi-DEX,medium,
+0xa5407eae9ba41422680e2e00537571bcc53efbfd,Curve sUSD pool,Curve,DeFi-DEX,medium,
+0x000000000004444c5dc75cb358380d2e3de08a90,Uniswap V4 PoolManager,Uniswap,DeFi-DEX,high,
+0x88e6a0c2ddd26feeb64f039a2c41296fcb3f5640,Uniswap V3 USDC/WETH 0.05%,Uniswap,DeFi-DEX,high,
+0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8,Uniswap V3 USDC/WETH 0.3%,Uniswap,DeFi-DEX,high,
+0x3416cf6c708da44db2624d63ea0aaef7113527c6,Uniswap V3 USDC/USDT 0.01%,Uniswap,DeFi-DEX,high,
+0x11b815efb8f581194ae79006d24e0d814b7697f6,Uniswap V3 WETH/USDT 0.05%,Uniswap,DeFi-DEX,high,
+0x5777d92f208679db4b9778590fa3cab3ac9e2168,Uniswap V3 DAI/USDC 0.01%,Uniswap,DeFi-DEX,high,
+0xb4e16d0168e52d35cacd2c6185b44281ec28c9dc,Uniswap V2 USDC/WETH,Uniswap,DeFi-DEX,high,
+0x0d4a11d5eeaac28ec3f61d100daf4d40471f1852,Uniswap V2 USDT/WETH,Uniswap,DeFi-DEX,high,
+0xa478c2975ab1ea89e8196811f51a7b7ade33eb11,Uniswap V2 DAI/WETH,Uniswap,DeFi-DEX,high,
+0xc3d03e4f041fd4cd388c549ee2a29a9e5075882f,SushiSwap DAI/WETH,SushiSwap,DeFi-DEX,medium,
+0xba12222222228d8ba445958a75a0704d566bf2c8,Balancer Vault,Balancer,DeFi-DEX,high,
+0x9008d19f58aabd9ed0d60971565aa8510560ab41,CoW Protocol GPv2 Settlement,CoW,DEX-aggregator,high,
+0x11111112542d85b3ef69ae05771c2dccff4faa26,1inch Router v3,1inch,DEX-aggregator,medium,
+0x1111111254eeb25477b68fb85ed929f73a960582,1inch Router v5,1inch,DEX-aggregator,high,
+0x28c6c06298d514db089934071355e5743bf21d60,Binance 14,Binance,CEX,high,Largest USDT recipient 2021–2026
+0x21a31ee1afc51d94c2efccaa2092ad1028285549,Binance 15,Binance,CEX,high,
+0xdfd5293d8e347dfe59e90efd55b2956a1343963d,Binance 16,Binance,CEX,high,
+0x56eddb7aa87536c09ccc2793473599fd21a8b17f,Binance 17,Binance,CEX,high,Internal consolidation wallet; inflow from a single address
+0x9696f59e4d72e237be84ffd425dcad154bf96976,Binance 18,Binance,CEX,high,
+0xf977814e90da44bfa03b6295a0616a897441acec,Binance 8,Binance,CEX,high,
+0xbe0eb53f46cd790cd13851d5eff43d12404d33e8,Binance 7,Binance,CEX,high,
+0x3f5ce5fbfe3e9af3971dd833d26ba9b5c936f0be,Binance 1,Binance,CEX,high,
+0xd551234ae421e3bcba99a0da6d736074f22192ff,Binance 2,Binance,CEX,high,
+0x564286362092d8e7936f0549571a803b203aaced,Binance 3,Binance,CEX,high,
+0x0681d8db095565fe8a346fa0277bffde9c0edbbf,Binance 4,Binance,CEX,high,
+0xfe9e8709d3215310075d67e3ed32a380ccf451c8,Binance 5,Binance,CEX,high,
+0x4e9ce36e442e55ecd9025b9a6e0d88485d628a67,Binance 6,Binance,CEX,high,
+0x5a52e96bacdabb82fd05763e25335261b270efcb,Binance 28,Binance,CEX,medium,
+0x71660c4005ba85c37ccec55d0c4493e66fe775d3,Coinbase 1,Coinbase,CEX,high,
+0x503828976d22510aad0201ac7ec88293211d23da,Coinbase 2,Coinbase,CEX,high,
+0xddfabcdc4d8ffc6d5beaf154f18b778f892a0740,Coinbase 3,Coinbase,CEX,high,
+0x3cd751e6b0078be393132286c442345e5dc49699,Coinbase 4,Coinbase,CEX,high,
+0xb5d85cbf7cb3ee0d56b3bb207d5fc4b82f43f511,Coinbase 5,Coinbase,CEX,high,
+0xeb2629a2734e272bcc07bda959863f316f4bd4cf,Coinbase 6,Coinbase,CEX,high,
+0xa9d1e08c7793af67e9d92fe308d5697fb81d3e43,Coinbase 10,Coinbase,CEX,medium,Typed as a contract in our data; to be checked
+0x742d35cc6634c0532925a3b844bc454e4438f44e,Bitfinex 1,Bitfinex,CEX,high,
+0x876eabf441b2ee5b5b0554fd502a8e0600950cfa,Bitfinex 2,Bitfinex,CEX,high,
+0x77134cbc06cb00b66f4c7e623d5fdbf6777635ec,Bitfinex 3,Bitfinex,CEX,medium,
+0x1151314c646ce4e0efd76d1af4760ae66a9fe30f,Bitfinex 4,Bitfinex,CEX,medium,
+0x2910543af39aba0cd09dbb2d50200b3e800a63d2,Kraken 4,Kraken,CEX,high,
+0x89e51fa8ca5d66cd220baed62ed01e8951aa7c40,Kraken 7,Kraken,CEX,high,"In-degree about 8,700; perennial top-20 USDT recipient"
+0x6cc5f688a315f3dc28a7781717a9a798a59fda7b,OKX,OKX,CEX,high,
+0x236f9f97e0e62388479bf9e5ba4889e46b0273c3,OKX 2,OKX,CEX,medium,
+0x98ec059dc3adfbdd63429454aeb0c990fba4a128,OKX 3,OKX,CEX,medium,
+0xa7efae728d2936e78bda97dc267687568dd593f3,OKX 4,OKX,CEX,medium,
+0xf89d7b9c864f589bbf53a82105107622b35eaa40,Bybit,Bybit,CEX,high,
+0x2faf487a4414fe77e2327f0bf4ae2a264a776ad2,FTX Exchange,FTX,CEX,high,
+0xc098b2a3aa256d2140208c3de6543aaef5cd3a94,FTX Exchange 2,FTX,CEX,high,
+0x56178a0d5f301baf6cf3e1cd53d9863437345bf9,Unlabelled EOA (highly active since 2019; probable arbitrage operator wallet),Unlabeled-arb-operator,unknown-EOA,high,"No public tag; funded by 0x8641dF2D…, which also created MEV Bot 0xa69babef…; probably the same operator"
+0xab5c66752a9e8167967685f1450532fb96d5d24f,Huobi 1,Huobi,CEX,medium,
+0x6262998ced04146fa42253a5c0af90ca02dfd2a3,Crypto.com,Crypto.com,CEX,high,
+0x46340b20830761efd32832a74d7169b29feb9758,Crypto.com 2,Crypto.com,CEX,high,
+0x2b5634c42055806a59e9107ed44d43c426e58258,KuCoin,KuCoin,CEX,high,
+0x0d0707963952f2fba59dd06f2b425ace40b492fe,Gate.io,Gate.io,CEX,high,
+0x5754284f345afc66a98fbb0a0afe71e0f007b949,Tether Treasury,Tether,Issuer,high,
+0x36928500bc1dcd7af6a2b4008875cc336b927d57,Tether Treasury (old),Tether,Issuer,medium,
+0x55fe002aeff02f77364de339a1292923a15844b8,Circle,Circle,Issuer,high,Consolidation before redemption (Circle main wallet)
+0x40ec5b33f54e0e8a33a975908c5ba1c14e5bbbdf,Polygon ERC20 bridge,Polygon-bridge,Bridge,high,
+0xa3a7b6f88361f48403514059f1f16c8e78d60eec,Arbitrum L1 ERC20 gateway,Arbitrum-bridge,Bridge,high,
+0x99c9fc46f92e8a1c0dec1b1747d010903e884be1,Optimism L1 standard bridge,Optimism-bridge,Bridge,high,
+0x3154cf16ccdb4c6d922629664174b904d80f2c35,Base L1 standard bridge,Base-bridge,Bridge,high,
+0x06cff7088619c7178f5e14f0b119458d08d2f5ef,MEV Bot 0x06cf…5ef,MEV-bot-A,MEV-bot,high,Etherscan tag 'MEV Bot'; deployed 2025-02; 99.7% of inflow from Morpho Blue flash loans; disappears after netting
+0xd226997439ecfbeff8e110c8c78c8a7eefd19f89,MEV Bot 0xd226…f89,MEV-bot-A,MEV-bot,high,Etherscan tag 'MEV Bot'; deployed 2025-11; same bytecode as 0x06cff7…; probably the same operator
+0x00eb00c6f847740000884d00e03f00c761998feb,MEV Bot 0x00eb00…8fEb,MEV-bot-B,MEV-bot,high,Etherscan tag 'MEV Bot'; created 2025-11 by factory 0xec0000b5…; one further contract with identical bytecode
+0x547b5ad9f71ac50efd8755bc144767ac1768fc3d,Unlabelled contract (flash-loan/loop pattern; deployed 2026-05),Unlabeled-loop,loop-like contract,high,"No public tag, unverified source; in-degree 2, 87% of inflow from one counterparty; disappears after netting"
+0xa69babef1ca67a37ffaf7a485dfff3382056e78c,MEV Bot 0xa69b…e78c (inventory-holding arbitrage bot),Unlabeled-arb-operator,MEV-bot,high,"Etherscan tag 'MEV Bot'; deployed 2022-08; holds 1,024 ETH and >10 million USD of tokens; remains in the top 20 after netting; creator 0x8641dF2D… also funds 0x56178a0d…"
+0xee7ae85f2fe2239e27d9c1e23fffe168d63b4055,"Binance: Hot Wallet 34 (contract hot wallet, ERC-1967 proxy)",Binance,CEX,high,"Active since 2025-08; in-degree about 73,000; typed SC by the contract rule, classed CEX by label"
+0x559432e18b281731c054cd703d4b49872be4ed53,OKX: Hot Wallet 5,OKX,CEX,high,Active since 2025-02; funded by OKX 3; 7.86 million transactions
+0x31173ed183e5a9450c3671018ec4d770c8a8bf18,"Unlabelled EOA cluster A-1 (large, low-frequency settlement wallet; since 2024-05)",Unlabeled-cluster-A,unknown-EOA,high,No public tag; 5.4% of 2026 USDC net inflow; in-degree about 10; funds 0x688cc76d…
+0x688cc76d3b009d805ab6b4d0a1cbd228131b5cbf,Unlabelled EOA cluster A-2 (holds about 190 million USD; Swap-and-Deposit operations),Unlabeled-cluster-A,unknown-EOA,high,No public tag; funded by 0x31173ed1…; same operator
+0xcd531ae9efcce479654c4926dec5f6209531ca7b,Coinbase Prime 1,Coinbase,CEX,high,"Institutional brokerage/custody; since 2021-04; 380,000 transactions"
+0x3b98b9e9cb75c1cb1729aab8f09ced2936505e4f,OKX 217,OKX,CEX,high,Label from the hildobby compilation; funded by OKX 156; since 2025-02
+0xaa8ba7d4611437141192e7ceced531bc0a133efb,Kraken: Hot Wallet 5,Kraken,CEX,high,Funded by Kraken 7; since 2025-09; 1.43 million transactions
+0x1601843c5e9bc251a3272907010afa41fa18347e,Spark: ALM Proxy (ALMProxy),Sky,DeFi-PSM,high,Spark liquidity-layer funds proxy; holds about 1.16 billion USD; deployed 2024-10

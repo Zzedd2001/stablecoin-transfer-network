@@ -1,0 +1,7 @@
+out/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+*.parquet
+figures/*.tif

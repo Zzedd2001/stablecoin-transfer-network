@@ -1,0 +1,97 @@
+token,scheme,event,metric,change,percentile,n_placebo
+USDT,G_net,Terra,log_nak,-0.468,5.4,74
+USDT,G_net,FTX,log_nak,-0.589,2.7,74
+USDT,G_net,USDC depeg,log_nak,0.004,48.6,74
+USDT,G_net,Oct-10 crash,log_nak,0.184,75.7,74
+USDT,G_net,Terra,top1,0.027,100.0,74
+USDT,G_net,FTX,top1,0.027,100.0,74
+USDT,G_net,USDC depeg,top1,0.005,64.9,74
+USDT,G_net,Oct-10 crash,top1,-0.001,41.9,74
+USDT,G_net,Terra,log_recv,0.117,79.7,74
+USDT,G_net,FTX,log_recv,0.221,94.6,74
+USDT,G_net,USDC depeg,log_recv,0.165,85.1,74
+USDT,G_net,Oct-10 crash,log_recv,0.136,81.1,74
+USDT,G_net,Terra,log_vol,0.483,93.2,74
+USDT,G_net,FTX,log_vol,0.684,98.6,74
+USDT,G_net,USDC depeg,log_vol,0.583,98.6,74
+USDT,G_net,Oct-10 crash,log_vol,0.191,73.0,74
+USDC,G_net,Terra,log_nak,-0.303,18.9,74
+USDC,G_net,FTX,log_nak,0.066,64.9,74
+USDC,G_net,USDC depeg,log_nak,1.078,100.0,74
+USDC,G_net,Oct-10 crash,log_nak,0.325,89.2,74
+USDC,G_net,Terra,top1,0.011,85.1,74
+USDC,G_net,FTX,top1,0.004,62.2,74
+USDC,G_net,USDC depeg,top1,-0.013,4.1,74
+USDC,G_net,Oct-10 crash,top1,-0.0,33.8,74
+USDC,G_net,Terra,log_recv,0.224,82.4,74
+USDC,G_net,FTX,log_recv,0.259,86.5,74
+USDC,G_net,USDC depeg,log_recv,0.146,70.3,74
+USDC,G_net,Oct-10 crash,log_recv,0.214,82.4,74
+USDC,G_net,Terra,log_vol,0.631,91.9,74
+USDC,G_net,FTX,log_vol,0.709,93.2,74
+USDC,G_net,USDC depeg,log_vol,0.191,73.0,74
+USDC,G_net,Oct-10 crash,log_vol,0.029,40.5,74
+DAI,G_net_xf,Terra,log_nak,-0.387,16.2,74
+DAI,G_net_xf,FTX,log_nak,-0.199,32.4,74
+DAI,G_net_xf,USDC depeg,log_nak,-0.003,50.0,74
+DAI,G_net_xf,Oct-10 crash,log_nak,-0.27,27.0,74
+DAI,G_net_xf,Terra,top1,0.036,97.3,74
+DAI,G_net_xf,FTX,top1,0.002,50.0,74
+DAI,G_net_xf,USDC depeg,top1,0.018,79.7,74
+DAI,G_net_xf,Oct-10 crash,top1,-0.0,40.5,74
+DAI,G_net_xf,Terra,log_recv,0.112,82.4,74
+DAI,G_net_xf,FTX,log_recv,0.251,90.5,74
+DAI,G_net_xf,USDC depeg,log_recv,0.258,90.5,74
+DAI,G_net_xf,Oct-10 crash,log_recv,0.184,89.2,74
+DAI,G_net_xf,Terra,log_vol,0.707,90.5,74
+DAI,G_net_xf,FTX,log_vol,0.393,83.8,74
+DAI,G_net_xf,USDC depeg,log_vol,1.219,97.3,74
+DAI,G_net_xf,Oct-10 crash,log_vol,0.172,73.0,74
+USDT,G_simple,Terra,log_nak,-0.732,4.1,74
+USDT,G_simple,FTX,log_nak,-1.028,0.0,74
+USDT,G_simple,USDC depeg,log_nak,-0.16,36.5,74
+USDT,G_simple,Oct-10 crash,log_nak,0.076,56.8,74
+USDT,G_simple,Terra,top1,0.03,100.0,74
+USDT,G_simple,FTX,top1,0.033,100.0,74
+USDT,G_simple,USDC depeg,top1,0.006,64.9,74
+USDT,G_simple,Oct-10 crash,top1,-0.001,45.9,74
+USDT,G_simple,Terra,log_recv,0.122,78.4,74
+USDT,G_simple,FTX,log_recv,0.217,94.6,74
+USDT,G_simple,USDC depeg,log_recv,0.15,85.1,74
+USDT,G_simple,Oct-10 crash,log_recv,0.154,86.5,74
+USDT,G_simple,Terra,log_vol,0.447,94.6,74
+USDT,G_simple,FTX,log_vol,0.651,98.6,74
+USDT,G_simple,USDC depeg,log_vol,0.44,94.6,74
+USDT,G_simple,Oct-10 crash,log_vol,0.183,74.3,74
+USDC,G_simple,Terra,log_nak,-0.453,8.1,74
+USDC,G_simple,FTX,log_nak,-0.257,23.0,74
+USDC,G_simple,USDC depeg,log_nak,1.013,98.6,74
+USDC,G_simple,Oct-10 crash,log_nak,-0.046,47.3,74
+USDC,G_simple,Terra,top1,0.018,86.5,74
+USDC,G_simple,FTX,top1,0.008,78.4,74
+USDC,G_simple,USDC depeg,top1,-0.022,2.7,74
+USDC,G_simple,Oct-10 crash,top1,-0.001,32.4,74
+USDC,G_simple,Terra,log_recv,0.193,78.4,74
+USDC,G_simple,FTX,log_recv,0.256,86.5,74
+USDC,G_simple,USDC depeg,log_recv,0.165,75.7,74
+USDC,G_simple,Oct-10 crash,log_recv,0.175,75.7,74
+USDC,G_simple,Terra,log_vol,0.753,95.9,74
+USDC,G_simple,FTX,log_vol,0.79,95.9,74
+USDC,G_simple,USDC depeg,log_vol,0.165,64.9,74
+USDC,G_simple,Oct-10 crash,log_vol,-0.005,32.4,74
+DAI,G_simple,Terra,log_nak,-0.319,14.9,74
+DAI,G_simple,FTX,log_nak,0.331,82.4,74
+DAI,G_simple,USDC depeg,log_nak,-0.243,24.3,74
+DAI,G_simple,Oct-10 crash,log_nak,0.229,71.6,74
+DAI,G_simple,Terra,top1,0.037,79.7,74
+DAI,G_simple,FTX,top1,0.005,62.2,74
+DAI,G_simple,USDC depeg,top1,-0.002,50.0,74
+DAI,G_simple,Oct-10 crash,top1,0.054,93.2,74
+DAI,G_simple,Terra,log_recv,0.065,73.0,74
+DAI,G_simple,FTX,log_recv,0.269,89.2,74
+DAI,G_simple,USDC depeg,log_recv,0.18,85.1,74
+DAI,G_simple,Oct-10 crash,log_recv,0.285,90.5,74
+DAI,G_simple,Terra,log_vol,0.563,87.8,74
+DAI,G_simple,FTX,log_vol,0.31,79.7,74
+DAI,G_simple,USDC depeg,log_vol,0.943,97.3,74
+DAI,G_simple,Oct-10 crash,log_vol,0.636,90.5,74
