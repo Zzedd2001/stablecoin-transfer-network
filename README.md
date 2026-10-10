@@ -2,7 +2,7 @@
 
 Code, label table and processed indicator tables for the article *Mapping the stablecoin transfer network on Ethereum after netting out flash loans, 2020–2026: rising concentration in USDT, super-linear preferential attachment and the retreat of payment-like transfers* (Zhengdong Zhu, School of Business, Macau University of Science and Technology; submitted to PLOS ONE, October 2026).
 
-Archived copy with a DOI: Zenodo, https://doi.org/10.5281/zenodo.23282476
+Repository: https://github.com/Zzedd2001/stablecoin-transfer-network. Archived copy with a DOI: Zenodo, https://doi.org/10.5281/zenodo.23282476
 
 ## What the study does
 

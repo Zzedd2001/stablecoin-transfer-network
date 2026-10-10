@@ -10,7 +10,7 @@ version: 1.0.0
 date-released: 2026-10-10
 doi: 10.5281/zenodo.23282476
 license: MIT
-repository-code: "https://github.com/[your-github-username]/stablecoin-transfer-network"
+repository-code: "https://github.com/Zzedd2001/stablecoin-transfer-network"
 keywords:
   - stablecoin
   - Ethereum
